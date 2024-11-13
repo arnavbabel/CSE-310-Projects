@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "./PJ1 I-file My-O-file < Instructions > My-Output"
+./PJ1 I-file My-O-file < Instructions > My-Output
+echo "========"
+echo "diff O-file My-O-file"
+diff O-file My-O-file
+echo "========"
+echo "diff Output My-Output"
+diff Output My-Output 
+echo "========"
